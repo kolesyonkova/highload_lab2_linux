@@ -132,7 +132,7 @@ cat /proc/$$/status | grep PPid
 ![ppid](img/ppid.png)
 
 Пояснение:  
-`\$\$` — PID текущего shell.  
+`$$` — PID текущего shell.  
 PPid — PID родительского процесса (обычно терминал или systemd).
 
 ---
